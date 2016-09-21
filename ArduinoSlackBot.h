@@ -65,7 +65,7 @@ private:
   int qrListLength; 
   queryResp* qrList[50]; //list of queries and responses, 50 max 
 
-  static EspSlackBot* ptrBot; //static ptr to EspSlackBot class for the webSocketEvent handler
+  static ArduinoSlackBot* ptrBot; //static ptr to EspSlackBot class for the webSocketEvent handler
   WebSocketsClient webSocket; //websocket
 
   const char *failMsg; //fail message
