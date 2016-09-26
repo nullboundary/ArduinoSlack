@@ -1,5 +1,5 @@
 
-#include "espSlackBot.h"
+#include "ArduinoSlackBot.h"
 
 ArduinoSlackBot* ArduinoSlackBot::ptrBot = 0; 
 
