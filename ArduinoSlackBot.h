@@ -50,7 +50,7 @@ private:
   void parseCmds(); //match messsage with commands and responses
 
   String slackToken;
-  const char* slackSSLFingerprint = "AB F0 5B A9 1A E0 AE 5F CE 32 2E 7C 66 67 49 EC DD 6D 6A 38"; // If Slack changes their SSL fingerprint, you would need to update this
+  const char * slackSSLFingerprint = "AC 95 5A 58 B8 4E 0B CD B3 97 D2 88 68 F5 CA C1 0A 81 E3 6E"; //You can use https://www.grc.com/fingerprints.htm to get fingerprint for "slack.com"
   const char* WORD_SEPERATORS = "., \"'()[]<>;:-+&?!\n\t";
   bool connected = false;
   unsigned long lastPing = 0;
